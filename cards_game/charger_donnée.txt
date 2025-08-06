@@ -1,0 +1,4 @@
+import pickle
+
+with open('jeu_tarot.pkl', 'rb') as f:
+    liste_a_trier = pickle.load(f)
